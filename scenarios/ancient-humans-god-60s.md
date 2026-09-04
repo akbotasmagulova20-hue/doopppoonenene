@@ -28,7 +28,7 @@
 
 | № | Тайм-код | Реплика (EN) | Кадр (RU) | Сек |
 |---|----------|--------------|-----------|-----|
-| 1 | 00:00–00:03 | Did ancient humans believe in God? | Крупный план глаз первобытного человека, отблеск костра в зрачках, чёрный фон. Вертикаль 9:16. | 3 |
+| 1 | 00:00–00:03 | Did ancient humans believe in God? | Крупный план глаз первобытного человека, отблеск костра в зрачках, чёрный фон | 3 |
 | 2 | 00:03–00:06 | Travel back fifty thousand years. Ask them. | Силуэт человека в шкуре стоит спиной, смотрит на бескрайнюю доисторическую степь на рассвете. | 3 |
 | 3 | 00:06–00:10 | No temples. No holy books. No priests. No religions. | Пустой каменистый ландшафт без единого следа человека: ни зданий, ни дорог, серое небо. | 4 |
 | 4 | 00:10–00:14 | Yet archaeologists keep finding something that shouldn't exist. | Руки археолога в перчатках кисточкой расчищают древний череп в раскопе, мягкий дневной свет. | 4 |
@@ -60,3 +60,29 @@
 - Темп — да, расхождение 0,02 сл/сек (1%). Начитывать нужно так же неспешно, как в эталоне.
 - Стиль и приёмы — да: вопрос-хук в первой секунде, «Imagine» в кадре 5, анафоры в кадрах 3 и 7, кольцевой финал (кадр 14 повторяет кадр 5).
 - **Где разошлось:** плотность вопросов у нас 0,05/сек против 0,023/сек — вопросов вдвое больше на единицу времени. Это осознанно: в 60 секундах нет места на длинные размышления, вопрос работает как ускоритель. Второе расхождение — у эталона 11 смысловых блоков, у нас 7: выброшены анимизм-подробности, «воображаемые реальности» (деньги, законы) и приход земледелия.
+
+---
+
+## 4. Сгенерированные кадры
+
+Стиль: нарочито кривые рисунки «новичок в MS Paint» — белый фон, толстые дрожащие чёрные контуры, стикмены, плоские цвета.
+Модель: `gpt_image_2` (OpenAI GPT Image 2), 16:9, 1344×752, quality `low` — низкое качество здесь работает на стиль.
+
+| № | Тайм-код | PNG |
+|---|----------|-----|
+| 1 | 00:00–00:03 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_23d31e32-4c77-4256-9206-3325dbcc1f5c.png |
+| 2 | 00:03–00:06 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_b720142e-fb15-456d-9705-aa03d76a0eea.png |
+| 3 | 00:06–00:10 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184411_a5fb0211-bf3f-418f-90e5-da0e884b6ebf.png |
+| 4 | 00:10–00:14 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_4a667e55-1025-4c6d-8a60-356ba07977fd.png |
+| 5 | 00:14–00:19 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_39dde0ca-dba1-4981-89b4-34d343fd9be5.png |
+| 6 | 00:19–00:24 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_07cf613a-65e1-4613-b221-c281d4a4cb28.png |
+| 7 | 00:24–00:29 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_9303c35f-1d07-4959-9763-5a8f4060da37.png |
+| 8 | 00:29–00:34 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_93598e4b-eac3-4527-a293-b38c7c7e9e55.png |
+| 9 | 00:34–00:38 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_340d1e8a-a111-4b46-afa5-c4ac0acad857.png |
+| 10 | 00:38–00:43 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_72121302-c62b-48fb-b566-39fc5c8ccf51.png |
+| 11 | 00:43–00:48 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_7e91b6e5-6958-4854-bedc-dac6afc1db2a.png |
+| 12 | 00:48–00:53 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_ee0d2ffc-27c4-421a-9ebb-f22e49558c5b.png |
+| 13 | 00:53–00:57 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184411_4ed83a4b-38a7-474f-b279-80b529a8f660.png |
+| 14 | 00:57–01:00 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184411_16ce8e61-418e-4635-b6e0-38c80305d8cf.png |
+
+Примечание: первая версия кадра 3 (перечёркнутые красным храм, книга и жрец) была отклонена модерацией как NSFW. Переснято без перечёркнутых религиозных символов — пустая равнина и одинокий стикмен, разводящий руками.
