@@ -28,20 +28,20 @@
 
 | № | Тайм-код | Реплика (EN) | Кадр (RU) | Сек |
 |---|----------|--------------|-----------|-----|
-| 1 | 00:00–00:03 | Did ancient humans believe in God? | Крупный план глаз первобытного человека, отблеск костра в зрачках, чёрный фон | 3 |
-| 2 | 00:03–00:06 | Travel back fifty thousand years. Ask them. | Силуэт человека в шкуре стоит спиной, смотрит на бескрайнюю доисторическую степь на рассвете. | 3 |
-| 3 | 00:06–00:10 | No temples. No holy books. No priests. No religions. | Пустой каменистый ландшафт без единого следа человека: ни зданий, ни дорог, серое небо. | 4 |
-| 4 | 00:10–00:14 | Yet archaeologists keep finding something that shouldn't exist. | Руки археолога в перчатках кисточкой расчищают древний череп в раскопе, мягкий дневной свет. | 4 |
-| 5 | 00:14–00:19 | Imagine standing alone at night, a hundred thousand years ago. | Одинокая фигура у маленького костра под гигантским звёздным небом, вокруг сплошная темнота. | 5 |
-| 6 | 00:19–00:24 | No science. No explanations. The world feels alive, watching, conscious. | Ночной лес, в темноте между стволами угадываются светящиеся глаза зверей. | 5 |
-| 7 | 00:24–00:29 | The river has a spirit. The forest. The mountain. The wind. | Река в тумане на рассвете, в дымке над водой читается смутный человеческий силуэт. | 5 |
-| 8 | 00:29–00:34 | Our brains evolved to sense someone hiding in the dark. | Взгляд от первого лица на шевелящиеся кусты, в темноте за ними — намёк на фигуру. | 5 |
-| 9 | 00:34–00:38 | Then humans understood something terrifying. Everyone dies. | Человек сидит на коленях рядом с неподвижным телом соплеменника, свет костра сбоку. | 4 |
-| 10 | 00:38–00:43 | They buried their dead with tools, pigments, jewelry. Why? | Древнее погребение сверху: скелет в позе эмбриона, рядом каменные орудия, охра, бусины из ракушек. | 5 |
-| 11 | 00:43–00:48 | They painted sacred animals deep inside caves nobody ever lived in. | Пещерная живопись — быки и олени охрой на стене, освещённые дрожащим огнём факела. | 5 |
-| 12 | 00:48–00:53 | Religion didn't create the search for meaning. The search came first. | Разделённый по диагонали кадр: слева древний человек у костра, справа силуэт храма на закате. | 5 |
-| 13 | 00:53–00:57 | Today we map galaxies, DNA, the human brain. | Спутник на орбите над ночной Землёй, россыпь огней городов внизу. | 4 |
-| 14 | 00:57–01:00 | And we're still asking the same questions. | Современный человек сидит у костра под тем же звёздным небом, что и в кадре 5 — кольцо. | 3 |
+| 1 | 00:00–00:03 | Did ancient humans believe in God? | Крупный план милого любопытного лица: большие блестящие глаза, лёгкая улыбка, светящийся золотой вопрос над головой, тёплый кремовый фон | 3 |
+| 2 | 00:03–00:06 | Travel back fifty thousand years. Ask them. | Стикмен со спины в меховой накидке на зелёном холме смотрит на золотой рассвет, бирюзовая стрелка «50,000 YEARS» | 3 |
+| 3 | 00:06–00:10 | No temples. No holy books. No priests. No religions. | Просторная зелёная долина под ярким небом, счастливый стикмен раскинул руки, ни одной постройки — только пастельный пунктир домика в небе | 4 |
+| 4 | 00:10–00:14 | Yet archaeologists keep finding something that shouldn't exist. | Улыбающийся археолог кисточкой очищает красивый расписной глиняный сосуд, вокруг золотые искры находки | 4 |
+| 5 | 00:14–00:19 | Imagine standing alone at night, a hundred thousand years ago. | Уютный кадр: стикмен у тёплого костра под роскошным звёздным небом с большими сияющими звёздами и месяцем | 5 |
+| 6 | 00:19–00:24 | No science. No explanations. The world feels alive, watching, conscious. | Волшебный лунный лес: круглые деревья, светлячки, милая сова на ветке и олень выглядывает с улыбкой | 5 |
+| 7 | 00:24–00:29 | The river has a spirit. The forest. The mountain. The wind. | Река в утреннем тумане, розово-золотое небо, над водой парит добрый дух из белых завитков с улыбкой | 5 |
+| 8 | 00:29–00:34 | Our brains evolved to sense someone hiding in the dark. | Днём: из куста выглядывает милый рыжий зверёк, рядом стикмен удивлённо улыбается, золотой вопрос над головой | 5 |
+| 9 | 00:34–00:38 | Then humans understood something terrifying. Everyone dies. | Стикмен сидит на холме на закате, держит цветок, лепестки улетают по ветру, в облачке мыслей — сердечко | 4 |
+| 10 | 00:38–00:43 | They buried their dead with tools, pigments, jewelry. Why? | Сверху: круг из даров на тёплой земле — бусы, расписные орудия, чаша с охрой и цветы, золотые искры | 5 |
+| 11 | 00:43–00:48 | They painted sacred animals deep inside caves nobody ever lived in. | Тёплая охристая стена пещеры в свете факела: оранжево-бирюзовые бык, олень и отпечатки ладоней, стикмен смотрит с восхищением | 5 |
+| 12 | 00:48–00:53 | Religion didn't create the search for meaning. The search came first. | Кадр надвое мягкой линией: слева стикмен у костра под звёздами, справа светлый храм с колоннами, бирюзовая стрелка слева направо | 5 |
+| 13 | 00:53–00:57 | Today we map galaxies, DNA, the human brain. | Милая Земля-кружок с улыбкой и огоньками городов, спутник на пунктирной орбите, рядом цветная спираль ДНК | 4 |
+| 14 | 00:57–01:00 | And we're still asking the same questions. | Современный стикмен в кепке с телефоном у того же костра под тем же звёздным небом, что в кадре 5 — кольцо | 3 |
 
 ---
 
@@ -65,24 +65,36 @@
 
 ## 4. Сгенерированные кадры
 
-Стиль: нарочито кривые рисунки «новичок в MS Paint» — белый фон, толстые дрожащие чёрные контуры, стикмены, плоские цвета.
-Модель: `gpt_image_2` (OpenAI GPT Image 2), 16:9, 1344×752, quality `low` — низкое качество здесь работает на стиль.
+Стиль: яркий дружелюбный рисованный мультстиль — тёплый кремовый фон, ровные округлые контуры, милые стикмены с большими добрыми глазами, сочные плоские цвета (солнечно-жёлтый, оранжевый, коралл, бирюза, небесно-голубой).
+Модель: `gpt_image_2` (OpenAI GPT Image 2), 16:9, 2688×1520, quality `medium`.
 
 | № | Тайм-код | PNG |
 |---|----------|-----|
-| 1 | 00:00–00:03 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_23d31e32-4c77-4256-9206-3325dbcc1f5c.png |
-| 2 | 00:03–00:06 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_b720142e-fb15-456d-9705-aa03d76a0eea.png |
-| 3 | 00:06–00:10 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184411_a5fb0211-bf3f-418f-90e5-da0e884b6ebf.png |
-| 4 | 00:10–00:14 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_4a667e55-1025-4c6d-8a60-356ba07977fd.png |
-| 5 | 00:14–00:19 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_39dde0ca-dba1-4981-89b4-34d343fd9be5.png |
-| 6 | 00:19–00:24 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_07cf613a-65e1-4613-b221-c281d4a4cb28.png |
-| 7 | 00:24–00:29 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_9303c35f-1d07-4959-9763-5a8f4060da37.png |
-| 8 | 00:29–00:34 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_93598e4b-eac3-4527-a293-b38c7c7e9e55.png |
-| 9 | 00:34–00:38 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_340d1e8a-a111-4b46-afa5-c4ac0acad857.png |
-| 10 | 00:38–00:43 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_72121302-c62b-48fb-b566-39fc5c8ccf51.png |
-| 11 | 00:43–00:48 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_7e91b6e5-6958-4854-bedc-dac6afc1db2a.png |
-| 12 | 00:48–00:53 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184322_ee0d2ffc-27c4-421a-9ebb-f22e49558c5b.png |
-| 13 | 00:53–00:57 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184411_4ed83a4b-38a7-474f-b279-80b529a8f660.png |
-| 14 | 00:57–01:00 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_184411_16ce8e61-418e-4635-b6e0-38c80305d8cf.png |
+| 1 | 00:00–00:03 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185228_bafbe0c3-3dd0-4751-964f-c895057a9ce6.png |
+| 2 | 00:03–00:06 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185228_932881b5-289d-4336-b043-e058b9d6c444.png |
+| 3 | 00:06–00:10 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185315_e9b7b1f9-e90e-4967-ad1d-7ef233f27319.png |
+| 4 | 00:10–00:14 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185315_7c2e995f-57d1-462b-8299-2e5123a55d6f.png |
+| 5 | 00:14–00:19 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185315_17ddc731-8273-4db8-a7b7-11f41421476b.png |
+| 6 | 00:19–00:24 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185228_71ce401e-031b-4254-aaa4-7dc89d7c46ce.png |
+| 7 | 00:24–00:29 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185359_767facfd-2cf7-4705-ba90-60b128ef308b.png |
+| 8 | 00:29–00:34 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185359_c3458df7-1944-460d-955d-22d6f089ccfb.png |
+| 9 | 00:34–00:38 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185359_1d70752f-e180-4b65-9034-b68d2bf7edd3.png |
+| 10 | 00:38–00:43 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185439_b31c117c-7393-4463-a8e8-ff27428efd4e.png |
+| 11 | 00:43–00:48 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185440_f3cb98b7-5477-4a58-9e51-19aaefbcbd46.png |
+| 12 | 00:48–00:53 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185440_dda5bd3a-2603-4e96-bd9e-797234f7b4cf.png |
+| 13 | 00:53–00:57 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185514_0cd05900-a598-44cf-ad00-1a652b48d52d.png |
+| 14 | 00:57–01:00 | https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3/hf_20260904_185514_1e636ce8-4851-4ba8-aee8-17098c3e89ee.png |
 
-Примечание: первая версия кадра 3 (перечёркнутые красным храм, книга и жрец) была отклонена модерацией как NSFW. Переснято без перечёркнутых религиозных символов — пустая равнина и одинокий стикмен, разводящий руками.
+### Что изменено против первой версии
+
+Первая версия была нарочито кривой («новичок в MS Paint») и вышла жуткой. Переделано:
+
+- **Стиль**: вместо дрожащих чёрных линий на белом — ровные округлые контуры, тёплый кремовый фон, сочная цветная палитра, милые персонажи с улыбками.
+- **Кадр 4**: череп в раскопе → расписной глиняный сосуд и золотые искры находки.
+- **Кадр 6**: светящиеся глаза в темноте → лунный лес со светлячками, совой и оленем.
+- **Кадр 8**: чёрная тень с белыми глазами за кустом → милый рыжий зверёк выглядывает.
+- **Кадр 9**: труп на земле и слеза → стикмен на закате с цветком, лепестки улетают по ветру.
+- **Кадр 10**: могила со скелетом → круг из даров: бусы, расписные орудия, охра, цветы.
+- **Кадры 5, 11, 14**: ночь и пещера остались, но стали тёплыми и уютными вместо мрачных.
+
+Смысл реплик не менялся — только визуальный язык.
