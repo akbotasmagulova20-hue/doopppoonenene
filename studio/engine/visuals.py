@@ -74,7 +74,10 @@ def build_gradient_bg(h, w):
     gy = np.arange(h)[:, None] / h
     top = BASE_DEEP * 0.75
     bot = BASE_MID * 1.05
-    return np.clip((top + (bot - top) * (gy ** 1.4))[:, :] * np.ones((1, w, 1)), 0, 1)
+    # (h,1) * (3,) broadcasts to (h,3); insert the width axis before
+    # spreading across columns, otherwise (h,3) meets (1,w,1) and fails
+    col = top + (bot - top) * (gy ** 1.4)          # (h, 3)
+    return np.clip(col[:, None, :] * np.ones((1, w, 1)), 0, 1)
 
 
 # ------------------------------------------------------------ rain droplets ---
