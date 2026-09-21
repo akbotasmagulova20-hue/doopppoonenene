@@ -1,2 +1,13 @@
-studio/out/
-studio/assets/*.png
+# Rendered output is reproducible from the engine in one command and runs to
+# gigabytes per video — never commit it.
+out/
+
+# Higgsfield stills are fetched with engine/fetch_assets.sh, not stored here.
+# The paths in these patterns are relative to this file: an earlier version used
+# "studio/out/" and so matched studio/studio/out/, silently ignoring nothing and
+# letting 24 MB of generated media into the history.
+assets/*.png
+
+# ...except the three procedural stand-ins, which let photo mode be tested
+# without network access to the CDN.
+!assets/standin_*.png
