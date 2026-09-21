@@ -27,6 +27,7 @@ while [ $# -gt 0 ]; do
     --h)      H=$2; shift 2;;
     --seed)   SEED=$2; shift 2;;
     --crf)    CRF=$2; shift 2;;
+    --abr)    ABR=$2; shift 2;;
     --keep)   KEEP=1; shift;;
     --lufs)   TARGET_LUFS=$2; shift 2;;
     --gain-db) GAIN_DB=$2; shift 2;;
