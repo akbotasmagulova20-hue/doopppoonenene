@@ -10,6 +10,7 @@ set -euo pipefail
 SPEC=${1:?usage: render_release.sh releases/batch-01.json}
 HERE="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$HERE"
+. "$HERE/engine/preflight.sh"
 export FFMPEG="${FFMPEG:-$(python3 -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')}"
 
 python3 - "$SPEC" <<'PY' > /tmp/_release_cmds.sh

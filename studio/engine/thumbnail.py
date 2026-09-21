@@ -18,7 +18,13 @@ build used here is compiled without freetype, so drawtext is unavailable.
 """
 import argparse, math, os, subprocess, sys
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+try:
+    from PIL import Image, ImageDraw, ImageFont
+except ImportError:
+    raise SystemExit("Pillow is required for thumbnails:\n"
+                     "  python3 -m pip install Pillow\n"
+                     "If that reports it is already installed, pip and python3 are "
+                     "different interpreters — use a venv (see engine/preflight.sh).")
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import visuals as V

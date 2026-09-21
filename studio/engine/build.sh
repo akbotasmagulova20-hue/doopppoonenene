@@ -39,6 +39,7 @@ while [ $# -gt 0 ]; do
 done
 
 HERE="$(cd "$(dirname "$0")" && pwd)"
+. "$(dirname "$0")/preflight.sh"
 FF="${FFMPEG:-$(python3 -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')}"
 TOTAL=$(python3 -c "print($HOURS*3600 + $MINUTES*60)")
 [ "$(python3 -c "print(1 if $TOTAL>0 else 0)")" = 1 ] || { echo "give --hours/--minutes" >&2; exit 2; }
