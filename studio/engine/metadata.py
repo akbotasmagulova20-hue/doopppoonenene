@@ -82,7 +82,7 @@ T = {
         "Steady rain against a window at night. No music, no thunder and no sudden "
         "changes — the loudest gusts have been removed so nothing wakes you.",
         ["rain sounds for sleeping", "rain sounds no music", "rain on window",
-         "sleep sounds", "rain sounds for sleeping 8 hours", "rain ambience"],
+         "sleep sounds", "rain ambience"],
         "Rain for Sleeping"),
  "es": ("Sonido de Lluvia para Dormir • {d} • Sin Música ni Truenos",
         "Lluvia constante contra la ventana por la noche. Sin música, sin truenos y "
@@ -112,7 +112,7 @@ T = {
         "A slow wood fire that never quite goes out. No music, no wind, no voices — "
         "only the crackle of burning logs.",
         ["fireplace sounds", "fireplace crackling no music", "fire sounds for sleeping",
-         "crackling fireplace 8 hours", "cozy fireplace ambience"],
+         "cozy fireplace ambience"],
         "Night Ambience"),
  "es": ("Chimenea Crepitante • {d} • Sin Música",
         "Un fuego de leña lento que nunca se apaga. Sin música, sin viento, sin voces.",
@@ -140,7 +140,7 @@ T = {
         "Waves washing over black volcanic sand at night. The loudest breakers have "
         "been taken out so the night stays even.",
         ["ocean waves sounds", "ocean sounds for sleeping", "waves sounds no music",
-         "sea sounds sleep", "ocean waves 10 hours"],
+         "sea sounds sleep"],
         "Nature Sounds"),
  "es": ("Sonido de Olas del Mar • {d} • Sin Música",
         "Olas rompiendo sobre arena volcánica negra por la noche, sin picos bruscos.",
@@ -192,7 +192,7 @@ T = {
  "en": ("Forest Stream • {d} • Water Over Stones",
         "A slow stream running over smooth stones in deep forest. Birds fade out "
         "after the first hour so the night stays quiet.",
-        ["forest stream sounds", "river sounds for sleeping", "water sounds 8 hours",
+        ["forest stream sounds", "river sounds for sleeping",
          "creek sounds sleep", "nature sounds sleep"],
         "Nature Sounds"),
  "es": ("Sonido de Arroyo en el Bosque • {d} • Agua sobre Piedras",
@@ -268,16 +268,16 @@ T = {
  "en": ("Brown Noise • {d} • Deep and Soft for Sleep",
         "Continuous brown noise: deeper and softer than white noise, with the harsh "
         "high frequencies rolled off.",
-        ["brown noise", "brown noise for sleeping", "brown noise 10 hours",
+        ["brown noise", "brown noise for sleeping",
          "brown noise black screen", "deep noise sleep"],
         "Noise for Sleep"),
  "es": ("Ruido Marrón • {d} • Profundo y Suave para Dormir",
         "Ruido marrón continuo: más profundo y suave que el ruido blanco.",
-        ["ruido marrón", "ruido marrón para dormir", "ruido marrón 10 horas"],
+        ["ruido marrón", "ruido marrón para dormir", "ruido para dormir"],
         "Ruido para Dormir"),
  "pt": ("Ruído Marrom • {d} • Profundo e Suave para Dormir",
         "Ruído marrom contínuo: mais profundo e suave que o ruído branco.",
-        ["ruído marrom", "ruído marrom para dormir", "ruído marrom 10 horas"],
+        ["ruído marrom", "ruído marrom para dormir", "ruído para dormir"],
         "Ruído para Dormir"),
  "de": ("Braunes Rauschen • {d} • Tief und Weich zum Einschlafen",
         "Durchgehendes braunes Rauschen: tiefer und weicher als weißes Rauschen.",
@@ -293,7 +293,7 @@ T = {
         "Continuous pink noise on a fully black screen — energy spread evenly across "
         "the octaves. The black screen saves battery and will not light a dark room.",
         ["pink noise", "pink noise for sleeping", "pink noise black screen",
-         "pink noise 10 hours", "masking sound sleep"],
+         "masking sound sleep"],
         "Noise for Sleep"),
  "es": ("Ruido Rosa • {d} • Pantalla Negra",
         "Ruido rosa continuo en pantalla completamente negra. Ahorra batería y no "
@@ -358,6 +358,9 @@ def build(item):
             print(f"warning: {item['slug']} [{lang}] title is {len(title)} chars "
                   f"(YouTube limit 100)", file=sys.stderr)
         tags = list(kw)
+        # a length tag is worth having (people search "8 hours"), but it has to
+        # match this video, not a number frozen into the template
+        tags.append(f"{kw[0]} {d.lower()}")
         desc = "\n\n".join([
             lead,
             f"{DURATION_LABEL[lang]}: {d}\n{HEADPHONES[lang]}",
