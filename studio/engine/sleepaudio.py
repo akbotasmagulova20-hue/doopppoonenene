@@ -70,6 +70,24 @@ def spectrum_ocean(f):
     return _tilt(f, 0.85) * _band(f, 55.0, 6500.0, 2.0, 1.5)
 
 
+def spectrum_crackle(f):
+    """Sharp, woody transients of burning wood."""
+    return _tilt(f, 0.3) * _band(f, 700.0, 5200.0, 3.0, 1.8)
+
+
+def spectrum_fire_body(f):
+    return _tilt(f, 1.3) * _band(f, 45.0, 900.0, 2.0, 1.5)
+
+
+def spectrum_wind(f):
+    return _tilt(f, 0.9) * _band(f, 90.0, 3400.0, 2.0, 1.6)
+
+
+def spectrum_stream(f):
+    """Water over stones: brighter and busier than rain, with less low body."""
+    return _tilt(f, 0.45) * _band(f, 300.0, 7800.0, 2.5, 1.5)
+
+
 def spectrum_lowbed(f):
     return _tilt(f, 1.4) * _band(f, 18.0, 160.0, 2.0, 2.0)
 
@@ -164,6 +182,11 @@ def droplet_envelope(n, rng, rate_hz=14.0, decay_s=0.06):
     env = fftconv(env, k)[:n]
     m = env.max()
     return env / m if m > 0 else env
+
+
+def crackle_envelope(n, rng, rate_hz=6.0, decay_s=0.018):
+    """Sparse, very fast-decaying impulses — the pops of burning wood."""
+    return droplet_envelope(n, rng, rate_hz=rate_hz, decay_s=decay_s)
 
 
 # --------------------------------------------------------------- ambient pad ---
@@ -312,6 +335,17 @@ def build_preset(name, seed):
     elif name == "brown_rain":
         L += [Layer(ShapedNoise(spectrum_brown, seed + 1, 0.55), 0.70, "flat"),
               Layer(ShapedNoise(spectrum_rain_hiss, seed + 2), 0.32, "gust")]
+    elif name == "fireplace":
+        L += [Layer(ShapedNoise(spectrum_fire_body, seed + 1), 0.55, "gust"),
+              Layer(ShapedNoise(spectrum_crackle, seed + 2), 0.42, "crackle"),
+              Layer(ShapedNoise(spectrum_lowbed, seed + 3), 0.26, "flat")]
+    elif name == "wind":
+        L += [Layer(ShapedNoise(spectrum_wind, seed + 1), 0.80, "gust"),
+              Layer(ShapedNoise(spectrum_lowbed, seed + 2), 0.30, "flat")]
+    elif name == "stream":
+        L += [Layer(ShapedNoise(spectrum_stream, seed + 1), 0.72, "ripple"),
+              Layer(ShapedNoise(spectrum_rain_body, seed + 2), 0.30, "flat"),
+              Layer(ShapedNoise(spectrum_lowbed, seed + 3), 0.18, "flat")]
     elif name == "ocean":
         L += [Layer(ShapedNoise(spectrum_ocean, seed + 1), 0.85, "wave"),
               Layer(ShapedNoise(spectrum_lowbed, seed + 2), 0.28, "flat")]
@@ -328,7 +362,8 @@ def build_preset(name, seed):
 
 
 PRESETS = ["rain_window", "rain_pad", "brown_noise", "pink_noise", "white_noise",
-           "brown_rain", "ocean", "ocean_pad", "pad_only"]
+           "brown_rain", "ocean", "ocean_pad", "pad_only", "fireplace", "wind",
+           "stream"]
 
 
 # --------------------------------------------------------------------- render ---
@@ -350,7 +385,8 @@ def render(preset, total_s, seed, out, gain_db=-12.0, decline_db=3.5,
         n = min(chunk, total_n - written)
         t0 = written / SR
         mix = np.zeros((n, 2))
-        g_env = 1.0 + 0.14 * gust.read(n)
+        gust_depth = 0.45 if preset == "wind" else 0.14
+        g_env = 1.0 + gust_depth * gust.read(n)
         w_raw = wave.read(n)
         w_env = 0.42 + 0.58 * (0.5 + 0.5 * np.sin(
             2 * np.pi * (t0 + np.arange(n) / SR) / 11.0 + 1.6 * w_raw))
@@ -363,6 +399,15 @@ def render(preset, total_s, seed, out, gain_db=-12.0, decline_db=3.5,
             elif lay.kind == "drop":
                 env = droplet_envelope(n, rng)
                 sig = sig * (0.30 + 1.70 * env)[:, None]
+            elif lay.kind == "crackle":
+                env = crackle_envelope(n, rng)
+                sig = sig * (0.06 + 2.60 * env)[:, None]
+            elif lay.kind == "ripple":
+                # fast, shallow modulation: water moving over stones
+                tt = (written + np.arange(n)) / SR
+                rip = 1.0 + 0.07 * np.sin(2 * np.pi * 0.7 * tt) \
+                          + 0.05 * np.sin(2 * np.pi * 1.9 * tt + 2.1)
+                sig = sig * rip[:, None]
             mix += sig * lay.gain
 
         # slow global decline: the bed quietly recedes as the listener settles

@@ -1,0 +1,32 @@
+{
+  "base": "https://d8j0ntlcm91z4.cloudfront.net/user_3IsBFyRBGiihV2NvmAHCnNdXFA3",
+  "note": "Generated with Higgsfield gpt_image_2_5 on 2026-09-21, 1 credit each. This session's egress policy blocks the CDN, so fetch them with engine/fetch_assets.sh on your own machine.",
+  "files": {
+    "rain_1.png":     "hf_20260921_114505_e1d58820-92df-48e6-9833-9367afa15799.png",
+    "rain_2.png":     "hf_20260921_114504_4eb494af-6a7c-488a-b8aa-24e3306dd5e5.png",
+    "rain_3.png":     "hf_20260921_114506_3c38c7b1-834f-4900-a402-f22a1823df9e.png",
+    "rain_vert.png":  "hf_20260921_114505_e6951cd9-473d-4534-8225-4a3326c3e4bb.png",
+    "rain_thumb.png": "hf_20260921_114505_eea6e927-7b9b-4cd7-96d0-53aa4ac0320f.png",
+    "fire_1.png":     "hf_20260921_172622_bb6efa6a-1650-4e49-8856-b19d0316e3c4.png",
+    "fire_2.png":     "hf_20260921_172622_1f289eb3-2263-45e7-a567-caa68dbb9c52.png",
+    "fire_3.png":     "hf_20260921_172622_aa452580-7ca9-49e9-aa7c-ae52a0c35c75.png",
+    "ocean_1.png":    "hf_20260921_172623_328a9a6c-afe6-4a3e-aac3-4f5b1d3f499a.png",
+    "ocean_2.png":    "hf_20260921_172622_c4803849-86ba-4197-90b1-dbe983c4b611.png",
+    "ocean_3.png":    "hf_20260921_172622_204c86cd-1011-4a5d-804d-73bc81d80303.png",
+    "winter_1.png":   "hf_20260921_172623_6ddb93d7-58d0-4424-ac3d-0cc51b3488da.png",
+    "winter_2.png":   "hf_20260921_172623_a134ddf0-ffb9-4a49-9ae4-27b355cc0cfe.png",
+    "winter_3.png":   "hf_20260921_172623_a346030f-2a54-4b85-8140-3f63a6214fe6.png",
+    "forest_1.png":   "hf_20260921_172623_cca99d9d-af88-49d3-aa00-41fa713a7fd4.png",
+    "forest_2.png":   "hf_20260921_172623_3c816501-ffc5-4607-924b-a67f86fa805d.png",
+    "forest_3.png":   "hf_20260921_172623_9d507a33-9868-462b-aa31-f0c756f9aed0.png",
+    "city_1.png":     "hf_20260921_172840_b2ebe425-51f7-470b-bceb-95de6868fdfc.png",
+    "city_2.png":     "hf_20260921_172840_0f6c972a-a560-4482-87b1-1dd4a313389e.png",
+    "city_3.png":     "hf_20260921_172841_82988c09-f54a-4e71-bc7e-344cd803edf2.png",
+    "space_1.png":    "hf_20260921_172840_29e86c2a-3c06-4077-9656-404b9a025d46.png",
+    "space_2.png":    "hf_20260921_172840_fcdfa969-f4de-4a9d-bb19-48dce445221d.png",
+    "space_3.png":    "hf_20260921_172840_aea21d08-71cc-4cbe-ac7a-187179a1f8c7.png",
+    "abstract_1.png": "hf_20260921_172840_0fd1192f-834b-4baa-b435-2f29b956845d.png",
+    "abstract_2.png": "hf_20260921_172841_1677bd80-0469-4cd0-a5b8-c3a01d1b19f7.png",
+    "abstract_3.png": "hf_20260921_172840_7960c451-23eb-40f0-af94-18d9de044a44.png"
+  }
+}

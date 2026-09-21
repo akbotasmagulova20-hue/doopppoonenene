@@ -1,0 +1,65 @@
+{
+  "batch": "batch-01",
+  "note": "Ten launch videos. Every entry has a distinct sound world AND a distinct visual set: no audio and no still is reused across two videos, which is what the inauthentic-content policy actually looks for (see ../global-sleep-brand/09-antispam-compliance.md). Publish one per day, never two of the same theme back to back.",
+  "videos": [
+    {"slug": "01-rain-window-8h", "theme": "rain", "hours": 8,
+     "preset": "rain_window", "mode": "photo", "seed": 101,
+     "hashtags": ["rainsounds", "sleepsounds", "rain"],
+     "render": "./engine/build.sh --preset rain_window --mode photo --photos assets/rain_1.png,assets/rain_2.png,assets/rain_3.png --hours 8 --seed 101 --out out/01-rain-window-8h.mp4",
+     "thumb": "python3 engine/thumbnail.py --title \"RAIN\" --duration 8H --accent rain --bg assets/rain_1.png --out out/01-rain-window-8h.png"},
+
+    {"slug": "02-fireplace-8h", "theme": "fireplace", "hours": 8,
+     "preset": "fireplace", "mode": "photo", "seed": 202,
+     "hashtags": ["fireplace", "sleepsounds", "cozy"],
+     "render": "./engine/build.sh --preset fireplace --mode photo --photos assets/fire_1.png,assets/fire_2.png,assets/fire_3.png --hours 8 --seed 202 --out out/02-fireplace-8h.mp4",
+     "thumb": "python3 engine/thumbnail.py --title \"FIREPLACE\" --duration 8H --accent ember --bg assets/fire_1.png --out out/02-fireplace-8h.png"},
+
+    {"slug": "03-ocean-waves-10h", "theme": "ocean", "hours": 10,
+     "preset": "ocean", "mode": "photo", "seed": 303,
+     "hashtags": ["oceansounds", "sleepsounds", "waves"],
+     "render": "./engine/build.sh --preset ocean --mode photo --photos assets/ocean_1.png,assets/ocean_2.png,assets/ocean_3.png --hours 10 --seed 303 --out out/03-ocean-waves-10h.mp4",
+     "thumb": "python3 engine/thumbnail.py --title \"OCEAN\" --duration 10H --accent nature --bg assets/ocean_1.png --out out/03-ocean-waves-10h.png"},
+
+    {"slug": "04-winter-wind-8h", "theme": "wind", "hours": 8,
+     "preset": "wind", "mode": "photo", "seed": 404,
+     "hashtags": ["windsounds", "sleepsounds", "winter"],
+     "render": "./engine/build.sh --preset wind --mode photo --photos assets/winter_1.png,assets/winter_2.png,assets/winter_3.png --hours 8 --seed 404 --out out/04-winter-wind-8h.mp4",
+     "thumb": "python3 engine/thumbnail.py --title \"WINTER WIND\" --duration 8H --accent sleep --bg assets/winter_1.png --out out/04-winter-wind-8h.png"},
+
+    {"slug": "05-forest-stream-8h", "theme": "stream", "hours": 8,
+     "preset": "stream", "mode": "photo", "seed": 505,
+     "hashtags": ["naturesounds", "sleepsounds", "water"],
+     "render": "./engine/build.sh --preset stream --mode photo --photos assets/forest_1.png,assets/forest_2.png,assets/forest_3.png --hours 8 --seed 505 --out out/05-forest-stream-8h.mp4",
+     "thumb": "python3 engine/thumbnail.py --title \"FOREST STREAM\" --duration 8H --accent nature --bg assets/forest_1.png --out out/05-forest-stream-8h.png"},
+
+    {"slug": "06-night-city-3h", "theme": "city", "hours": 3,
+     "preset": "brown_rain", "mode": "photo", "seed": 606,
+     "hashtags": ["cityambience", "sleepsounds", "nightambience"],
+     "render": "./engine/build.sh --preset brown_rain --mode photo --photos assets/city_1.png,assets/city_2.png,assets/city_3.png --hours 3 --seed 606 --out out/06-night-city-3h.mp4",
+     "thumb": "python3 engine/thumbnail.py --title \"NIGHT CITY\" --duration 3H --accent focus --bg assets/city_1.png --out out/06-night-city-3h.png"},
+
+    {"slug": "07-space-ambient-8h", "theme": "space", "hours": 8,
+     "preset": "pad_only", "mode": "photo", "seed": 707,
+     "hashtags": ["ambient", "sleepmusic", "space"],
+     "render": "./engine/build.sh --preset pad_only --mode photo --photos assets/space_1.png,assets/space_2.png,assets/space_3.png --hours 8 --seed 707 --out out/07-space-ambient-8h.mp4",
+     "thumb": "python3 engine/thumbnail.py --title \"SPACE\" --duration 8H --accent sleep --bg assets/space_1.png --out out/07-space-ambient-8h.png"},
+
+    {"slug": "08-brown-noise-10h", "theme": "brown", "hours": 10,
+     "preset": "brown_noise", "mode": "photo", "seed": 808,
+     "hashtags": ["brownnoise", "sleepsounds", "noise"],
+     "render": "./engine/build.sh --preset brown_noise --mode photo --photos assets/abstract_1.png,assets/abstract_2.png,assets/abstract_3.png --hours 10 --seed 808 --out out/08-brown-noise-10h.mp4",
+     "thumb": "python3 engine/thumbnail.py --title \"BROWN NOISE\" --duration 10H --accent noise --bg assets/abstract_1.png --out out/08-brown-noise-10h.png"},
+
+    {"slug": "09-pink-noise-10h-black", "theme": "pink", "hours": 10,
+     "preset": "pink_noise", "mode": "black", "seed": 909,
+     "hashtags": ["pinknoise", "blackscreen", "sleepsounds"],
+     "render": "./engine/build.sh --preset pink_noise --mode black --hours 10 --seed 909 --out out/09-pink-noise-10h-black.mp4",
+     "thumb": "python3 engine/thumbnail.py --title \"PINK NOISE\" --duration 10H --accent noise --out out/09-pink-noise-10h-black.png"},
+
+    {"slug": "10-deep-sleep-music-3h", "theme": "sleepmusic", "hours": 3,
+     "preset": "rain_pad", "mode": "gradient", "seed": 1010,
+     "hashtags": ["sleepmusic", "ambient", "deepsleep"],
+     "render": "./engine/build.sh --preset rain_pad --mode gradient --hours 3 --seed 1010 --out out/10-deep-sleep-music-3h.mp4",
+     "thumb": "python3 engine/thumbnail.py --title \"DEEP SLEEP\" --duration 3H --accent sleep --seed 1010 --out out/10-deep-sleep-music-3h.png"}
+  ]
+}
